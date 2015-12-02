@@ -4,4 +4,5 @@ machine:
 
 dependencies:
   pre:
-    - docker build -t circleci/hello:$CIRCLE_SHA1 .
+    - sleep 1
+    
